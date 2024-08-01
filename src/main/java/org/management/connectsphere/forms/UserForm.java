@@ -33,4 +33,5 @@ public class UserForm {
     @NotBlank(message = "Phone number is required")
     @Size(min = 10, max = 10, message = "Digits should be 10")
     private String phoneNumber;
+
 }

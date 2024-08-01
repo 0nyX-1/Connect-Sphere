@@ -13,6 +13,7 @@ public class UserMapper {
                 .password(userForm.getPassword())
                 .about(userForm.getAbout())
                 .phoneNumber(userForm.getPhoneNumber())
+                .enabled(true)
                 .build();
     }
 }
